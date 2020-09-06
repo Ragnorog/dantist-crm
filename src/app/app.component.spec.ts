@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dantist-crm'`, () => {
+  it(`should have as title 'dentist-crm'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('dantist-crm');
+    expect(app.title).toEqual('dentist-crm');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('dantist-crm app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('dentist-crm app is running!');
   });
 });
